@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet"
+          href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
     <!--link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"-->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -34,82 +35,85 @@
     </div>
 </div>
 
-    <div class="main-content">
-        <header>
-            <h1>
-                <span class="las la-bars"></span>
-                Dashboard
-            </h1>
-            <div class="search-wrapper">
-                <span class="las la-search"></span>
-                    <input type="search" placeholder="search here">
-            </div>
+<div class="main-content">
+    <header>
+        <h1>
+            <span class="las la-bars"></span>
+            Dashboard
+        </h1>
+        <div class="search-wrapper">
+            <span class="las la-search"></span>
+            <input type="search" placeholder="search here">
+        </div>
 
-            <div class="user-wrapper">
-                <img src="img1.jpg" width="40px" height="40px" alt="">
+        <div class="user-wrapper">
+            <img src="img1.jpg" width="40px" height="40px" alt="">
+            <div>
+                <h4>Jane Doe</h4>
+                <small>Super Admin</small>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="cards">
+            <div class="card-single">
                 <div>
-                    <h4>Jane Doe</h4>
-                    <small>Super Admin</small>
+                    <h1>54</h1>
+                    <span>Customers</span>
+                </div>
+                <div>
+                    <span class="las la-users"></span>
                 </div>
             </div>
-        </header>
 
-        <main>
-
-            <div class="cards">
-                <div class="card-single">
-                    <div>
-                        <h1>54</h1>
-                        <span>Customers</span>
-                    </div>
-                    <div>
-                        <span class="las la-users"></span>
-                    </div>
+            <div class="card-single">
+                <div>
+                    <h1>79</h1>
+                    <span>Projects</span>
                 </div>
-
-                <div class="card-single">
-                    <div>
-                        <h1>79</h1>
-                        <span>Projects</span>
-                    </div>
-                    <div>
-                        <span class="las la-clipboard"></span>
-                    </div>
+                <div>
+                    <span class="las la-clipboard"></span>
                 </div>
-
-                <div class="card-single">
-                    <div>
-                        <h1>154</h1>
-                        <span>Orders</span>
-                    </div>
-                    <div>
-                        <span class="las la-shopping-bag"></span>
-                    </div>
-                </div>
-
-                <div class="card-single">
-                    <div>
-                        <h1>€6k</h1>
-                        <span>Income</span>
-                    </div>
-                    <div>
-                        <span class="lab la-google-wallet"></span>
-                    </div>
-                </div>
-
             </div>
 
-            <div class="recent-grid">
-                <div class="projects">
-                    <div class="card">
-                        <div class="card-header">
-                            <h3>Recent Projects</h3>
+            <div class="card-single">
+                <div>
+                    <h1>154</h1>
+                    <span>Orders</span>
+                </div>
+                <div>
+                    <span class="las la-shopping-bag"></span>
+                </div>
+            </div>
 
-                            <button>Voir tout <span class="las la-arrow-right"></span></button>
+            <div class="card-single">
+                <div>
+                    <h1>€6k</h1>
+                    <span>Income</span>
+                </div>
+                <div>
+                    <span class="lab la-google-wallet"></span>
+                </div>
+            </div>
 
-                        </div>
+        </div>
 
-                        <div class="card-body">
+        <div class="recent-grid">
+            <div class="projects">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Recent Projects</h3>
+
+                        <button>Voir tout <span class="las la-arrow-right"></span></button>
+
+                    </div>
+
+                    <div class="card-body">
+                        <div class="table-responsive">
+
+
                             <table width="100%">
                                 <thead>
                                 <tr>
@@ -122,73 +126,120 @@
                                 <tr>
                                     <td>UI/UX Design</td>
                                     <td>UI Team</td>
-                                    <td><span class="status"></span>
-                                    review</td>
+                                    <td><span class="status purple"></span>
+                                        review
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Web Development</td>
                                     <td>Front-end</td>
-                                    <td><span class="status"></span>
-                                        in progress</td>
+                                    <td><span class="status orange"></span>
+                                        in progress
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Ushop app</td>
                                     <td>UI Team</td>
-                                    <td><span class="status"></span>
-                                        pending</td>
-                                </tr><tr>
+                                    <td><span class="status purple"></span>
+                                        pending
+                                    </td>
+                                </tr>
+                                <tr>
                                     <td>UI/UX Design</td>
                                     <td>UI Team</td>
-                                    <td><span class="status"></span>
-                                    review</td>
+                                    <td><span class="status pink"></span>
+                                        review
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Web Development</td>
                                     <td>Front-end</td>
-                                    <td><span class="status"></span>
-                                        in progress</td>
+                                    <td><span class="status orange"></span>
+                                        in progress
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Ushop app</td>
                                     <td>UI Team</td>
-                                    <td><span class="status"></span>
-                                        pending</td>
+                                    <td><span class="status pink"></span>
+                                        pending
+                                    </td>
                                 </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="customers">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>New Customers</h3>
+                        <button>Voir
+                            <span class="las la-arrow-right"></span>
+                        </button>
 
-                    <div class="customers">
-                        <div class="card">
-                            <div class="card-header">
-                                <h3>New Customers</h3>
-                                <button>Voir tout
-                                    <span class="las la-arrow-right"></span>
-                                </button>
-
-                            </div>
-                            <div class="card-body">
-                                <div class="customer">
-                                    <div>
-                                        <img src="img2.jpg" alt="" width="40px" height="40px">
-                                        <div>
-                                            <h4>Lewis s.TOM'S</h4>
-                                            <small>CEO Expert</small>
-                                        </div>
-                                    </div>
-                                    <span class="las la-user-circle"></span>
-                                    <span class="las la-comment"></span>
-                                    <span class="las la-phone"></span>
+                    </div>
+                    <div class="card-body">
+                        <div class="customer">
+                            <div class="info">
+                                <img src="sisqo.jpeg" alt="sisqo" width="40px" height="40px">
+                                <div>
+                                    <h4>Lewis s.TOM'S</h4>
+                                    <small>CEO Expert</small>
                                 </div>
                             </div>
+                            <div class="contact">
+                                <span class="las la-user-circle"></span>
+                                <span class="las la-comment"></span>
+                                <span class="las la-phone"></span>
+                            </div>
+                            <div>
+                                <img src="sisqo.jpeg" alt="sisqo" width="40px" height="40px">
+                                <div>
+                                    <h4>Clifton POWELL</h4>
+                                    <small>Actor</small>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <span class="las la-user-circle"></span>
+                                <span class="las la-comment"></span>
+                                <span class="las la-phone"></span>
+                            </div>
+                            <div>
+                                <img src="sisqo.jpeg" alt="sisqo" width="40px" height="40px">
+                                <div>
+                                    <h4>Jack DANIEL'S</h4>
+                                    <small>Wine seller</small>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <span class="las la-user-circle"></span>
+                                <span class="las la-comment"></span>
+                                <span class="las la-phone"></span>
+                            </div>
+                            <div>
+                                <img src="sisqo.jpeg" alt="sisqo" width="40px" height="40px">
+                                <div>
+                                    <h4>Heinz WALLACE</h4>
+                                    <small>Codeur</small>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <span class="las la-user-circle"></span>
+                                <span class="las la-comment"></span>
+                                <span class="las la-phone"></span>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-        </main>
-    </div>
+
+    </main>
+</div>
 
 </body>
 </html>
