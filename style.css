@@ -254,7 +254,6 @@ tr td:last-child{
 .status.orange{
     background: orangered;
 }
-
 .table-responsive{
     width: 100%;
     overflow-x: auto;
@@ -294,4 +293,6 @@ tr td:last-child{
     margin-left: .5rem;
     color:var(--main-color);
 }
+
+
 
