@@ -129,6 +129,18 @@
       font-size: 17px;
       transition: all 0.3s ease;
     }
+
+    .form-inner form .field select{
+      height: 100%;
+      width: 100%;
+      outline: none;
+      padding-left: 15px;
+      border-radius: 15px;
+      border: 1px solid lightgrey;
+      border-bottom-width: 2px;
+      font-size: 17px;
+      transition: all 0.3s ease;
+    }
     .form-inner form .field input:focus{
       border-color: #1a75ff;
       /* box-shadow: inset 0 0 3px #fb6aae; */
@@ -197,46 +209,71 @@
 </head>
 <body>
 <div class="wrapper">
+  <div style="text-align: center">
+    <img src="img/logo_ciib.png" alt="logo_ciib">
+  </div>
   <div class="title-text">
-    <div class="title login">Login Form</div>
-    <div class="title signup">Signup Form</div>
+<!--    <div class="title login"></div>-->
+<!--    <div class="title signup"></div>-->
   </div>
   <div class="form-container">
     <div class="slide-controls">
       <input type="radio" name="slide" id="login" checked>
       <input type="radio" name="slide" id="signup">
-      <label for="login" class="slide login">Login</label>
-      <label for="signup" class="slide signup">Signup</label>
+      <label for="login" class="slide login">Connexion</label>
+      <label for="signup" class="slide signup">Inscription</label>
       <div class="slider-tab"></div>
     </div>
     <div class="form-inner">
       <form action="#" class="login">
         <div class="field">
-          <input type="text" placeholder="Email Address" required>
+          <input type="text" placeholder="adresse mail" required>
         </div>
         <div class="field">
-          <input type="password" placeholder="Password" required>
+          <input type="password" placeholder="mot de passe" required>
         </div>
-        <div class="pass-link"><a href="#">Forgot password?</a></div>
+        <div class="pass-link"><a href="#">Mot de passe oublié?</a></div>
         <div class="field btn">
           <div class="btn-layer"></div>
-          <input type="submit" value="Login">
+          <input type="submit" value="connexion">
         </div>
-        <div class="signup-link">Not a member? <a href="">Signup now</a></div>
+        <div class="signup-link">Pas encore inscrit? <a href="">Inscrivez-vous ici</a></div>
       </form>
       <form action="#" class="signup">
         <div class="field">
-          <input type="text" placeholder="Email Address" required>
+          <label for="adresse mail">adresse mail</label>
+          <input type="text" placeholder="adresse mail" required>
         </div>
         <div class="field">
-          <input type="password" placeholder="Password" required>
+          <label for="mot de passe">mot de passe</label>
+          <input type="password" placeholder="mot de passe" required>
         </div>
         <div class="field">
-          <input type="password" placeholder="Confirm password" required>
+        <label for="conform">confirmez le mot de passe</label>
+          <input type="password" placeholder="confirmez le mot de passe" required>
         </div>
+        <!--div class="field">
+          <label for="type">type de personne</label><br>
+          <select name="type" id="">
+            <option value="">personne morale</option>
+            <option value="">personne physique</option>
+          </select>
+        </div>
+        <div class="field">
+          <input type="password" placeholder="confirmez le mot de passe" required>
+        </div>
+        <div class="field">
+          <input type="password" placeholder="confirmez le mot de passe" required>
+        </div>
+        <div class="field">
+          <input type="password" placeholder="confirmez le mot de passe" required>
+        </div>
+        <div-- class="field">
+          <input type="password" placeholder="confirmez le mot de passe" required>
+        </div-->
         <div class="field btn">
           <div class="btn-layer"></div>
-          <input type="submit" value="Signup">
+          <input type="submit" value="s'inscrire">
         </div>
       </form>
     </div>

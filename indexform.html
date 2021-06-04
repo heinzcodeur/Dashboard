@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="styleform.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <div style="text-align:center">
+            <img src="img/logo_ciib.png" alt="">
+        </div>
+        <!--        <div class="slide-controls">-->
+        <!--            <input type="radio" name="slide" id="login" checked>-->
+        <!--            <input type="radio" name="slide" id="signup">-->
+        <!--            <label for="login" class="slide login">Connexion</label>-->
+        <!--            <label for="signup" class="slide signup">Inscription</label>-->
+        <!--            <div class="slider-tab"></div>-->
+        <!--        </div>-->
+
+        <div style="text-align: center;margin-top: 9px;">
+
+            <div class="title"
+                 style="text-align: center;display: inline-block;border-radius: 6px 0 0 9px;color:#fff;background: #004080">
+                Connexion
+            </div>
+            <div class="title" style="text-align: center;display: inline-block">Inscription</div>
+        </div>
+        <form action="#">
+            <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <input type="radio" name="gender" id="dot-3">
+<!--                    <span class="gender-title">type de personne</span>-->
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">personne morale</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">personne physique</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">couple</span>
+                        </label>
+                    </div>
+                </div>
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Civilité</span>
+                    <input type="text" placeholder="civilité" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Nom</span>
+                    <input type="text" placeholder="entrez votre nom" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Prénom</span>
+                    <input type="text" placeholder="Entrer votre prénom" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Email</span>
+                    <input type="text" placeholder="Entrer votre email" required>
+                </div>
+                <div class="input-box" id="siret">
+                    <span class="details">siret</span>
+                    <input type="text" placeholder="siret" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Numéro de téléphone</span>
+                    <input type="text" placeholder="numéro" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">mot de passe</span>
+                    <input type="text" placeholder="mot de passe" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirmez mot de passe</span>
+                    <input type="text" placeholder="Confirm your password" required>
+                </div>
+<!--                <div class="input-box">-->
+<!--                    <span class="details">Confirmez mot de passe</span>-->
+<!--                    <input type="text" placeholder="Confirmez le mot de passe" required>-->
+<!--                </div>-->
+                <div class="input-box">
+                    <span class="details">adresse postale</span>
+                    <input type="text" placeholder="adresse postale" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">code postal</span>
+                    <input type="text" placeholder="code postal" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Ville</span>
+                    <input type="text" placeholder="Ville" required>
+                </div>
+<!--                    <div class="input-box">-->
+<!--                        <span class="details">code postal</span>-->
+<!--                        <input type="text" placeholder="Confirm your password" required>-->
+<!--                    </div>-->
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Register">
+                </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

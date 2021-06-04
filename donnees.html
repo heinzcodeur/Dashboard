@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+      <html lang="en">
+      <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"  content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>Dashboard</title>
+  <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <!--link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css"-->
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<input type="checkbox " id="nav_toggle">
+<div class="sidebar">
+  <div class="sidebar-brand">
+    <h1 class="h1"><span class="lab la-accu"></span>CIIB</h1>
+  </div>
+
+  <div class="sidebar-menu" style="margin-top:3.1rem">
+    <ul>
+      <li><a href="" class="active"><span class="las la-igloo"></span>
+        <span>Dashboard</span></a></li>
+      <li><a href=""><span class="las la-users"></span>
+        <span>Mes titres</span></a></li>
+      <li><a href=""><span class="las la-clipboard-list"></span>
+        <span>Mes opérations</span></a></li>
+      <li><a href=""><span class="las la-shopping-bag"></span>
+        <span>Mes Informations</span></a></li>
+      <li><a href=""><span class="las la-receipt"></span>
+        <span>Mes Documents</span></a></li>
+      <li><a href=""><span class="las la-user-circle"></span>
+        <!--                <span>Accounts</span></a></li>-->
+        <!--            <li><a href=""><span class="las la-clipboard-list"></span>-->
+        <span>Déconnexion</span></a></li>
+      <li></li>
+    </ul>
+  </div>
+</div>
+
+<div class="main-content">
+  <header>
+    <h2 style="margin-top: 33px;color:#05266c">
+      <label for="nav-toggle">
+        <span class="las la-bars"></span>
+      </label>
+      Carnet d'Annonces
+    </h2>
+    <!--        <div class="search-wrapper">-->
+    <div class="">
+      <img src="img/logo_ciib.png"  width="110" alt="">
+      <!--            <span class="las la-search"></span>-->
+      <!--            <input type="search" placeholder="search here">-->
+    </div>
+
+    <div class="user-wrapper">
+      <img src="img1.jpg" width="40px" height="40px" alt="">
+      <div>
+        <h4>Jane Doe</h4>
+        <small>Super Admin</small>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="cards" style="display: none">
+      <div class="card-single">
+        <div>
+          <h1>54</h1>
+          <span>VERACASH</span>
+        </div>
+        <div>
+          <span class="las la-users"></span>
+        </div>
+      </div>
+
+      <div class="card-single">
+        <div>
+          <h1>79</h1>
+          <span>CIIB</span>
+        </div>
+        <div>
+          <span class="las la-clipboard"></span>
+        </div>
+      </div>
+
+      <div class="card-single">
+        <div>
+          <h1>154</h1>
+          <span>Sival</span>
+        </div>
+        <div>
+          <span class="las la-shopping-bag"></span>
+        </div>
+      </div>
+
+      <div class="card-single">
+        <div>
+          <h1>€6k</h1>
+          <span>Accueil Hotel</span>
+        </div>
+        <div>
+          <span class="lab la-google-wallet"></span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="recent-grid">
+      <div class="projects" style="display: none">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mes dernières opérations</h3>
+
+            <!--                        <button>Voir tout <span class="las la-arrow-right"></span></button>-->
+
+          </div>
+
+          <div class="card-body">
+            <div class="table-responsive">
+
+
+              <table width="100%">
+                <thead>
+                <tr>
+                  <td>Nom</td>
+                  <td>Titre</td>
+                  <td>Prix unit.</td>
+                  <td>Quantité</td>
+                  <td>Vendeur</td>
+                  <td>Acheteur</td>
+                  <td>date</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>transaction</td>
+                  <td>VeraCash</td>
+                  <td><span class="status green"></span>
+                    0.1
+                  </td><td>600</td>
+                  <td>Toto</td>
+                  <td>Titi</td>
+                  <td>2021/03/06</td>
+                </tr>
+                <tr>
+                  <td>transaction</td>
+                  <td>Accueil H</td>
+                  <td><span class="status green"></span>
+                    0.1
+                  </td><td>1400</td>
+                  <td>Etienne</td>
+                  <td>Curtis</td>
+                  <td>2021/03/06</td>
+                </tr>
+                <tr>
+                  <td>transaction</td>
+                  <td>Cellande</td>
+                  <td><span class="status green"></span>
+                    0.1
+                  </td><td>6600</td>
+                  <td>Bertin</td>
+                  <td>Cheick</td>
+                  <td>2021/03/06</td>
+                </tr>
+                <tr>
+                  <td>transaction</td>
+                  <td>CIIB</td>
+                  <td><span class="status green"></span>
+                    0.1
+                  </td><td>5600</td>
+                  <td>Durand</td>
+                  <td>Dupont</td>
+                  <td>2021/03/06</td>
+                </tr>
+                <tr>
+                  <td>transaction</td>
+                  <td>VeraCash</td>
+                  <td><span class="status green"></span>
+                    0.1
+                  </td><td>900</td>
+                  <td>Paul</td>
+                  <td>JAck</td>
+                  <td>2021/03/06</td>
+                </tr>
+                <tr>
+                  <td>transaction</td>
+                  <td>Sival</td>
+                  <td><span class="status green"></span>
+                    0.1
+                  </td><td>300</td>
+                  <td>Fremont</td>
+                  <td>Vial</td>
+                  <td>2021/03/06</td>
+                </tr>
+                <tr>
+                  <td>transaction</td>
+                  <td>VeraCash</td>
+                  <td><span class="status green"></span>
+                    0.1
+                  </td><td>600</td>
+                  <td>Toto</td>
+                  <td>Titi</td>
+                  <td>2021/03/06</td>
+                </tr>
+                <!--                                <tr>-->
+
+                <!--&lt;!&ndash;                                    <td><span class="status orange"></span>&ndash;&gt;-->
+                <!--&lt;!&ndash;                                        in progress&ndash;&gt;-->
+                <!--&lt;!&ndash;                                    </td>&ndash;&gt;-->
+                <!--                                </tr>-->
+                <!--                                <tr>-->
+                <!--                                    <td>Ushop app</td>-->
+                <!--                                    <td>UI Team</td>-->
+                <!--                                    <td><span class="status green"></span>-->
+                <!--                                        pending-->
+                <!--                                    </td>-->
+                <!--                                </tr>-->
+                <!--                                <tr>-->
+                <!--                                    <td>UI/UX Design</td>-->
+                <!--                                    <td>UI Team</td>-->
+                <!--                                    <td><span class="status pink"></span>-->
+                <!--                                        review-->
+                <!--                                    </td>-->
+                <!--                                </tr>-->
+                <!--                                <tr>-->
+                <!--                                    <td>Web Development</td>-->
+                <!--                                    <td>Front-end</td>-->
+                <!--                                    <td><span class="status orange"></span>-->
+                <!--                                        in progress-->
+                <!--                                    </td>-->
+                <!--                                </tr>-->
+                <!--                                <tr>-->
+                <!--                                    <td>Ushop app</td>-->
+                <!--                                    <td>UI Team</td>-->
+                <!--                                    <td><span class="status pink"></span>-->
+                <!--                                        pending-->
+                <!--                                    </td>-->
+                <!--                                </tr>-->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="customers">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mes informations</h3>
+            <button>Voir
+              <span class="las la-arrow-right"></span>
+            </button>
+
+          </div>
+          <div class="card-body">
+            <div class="customer">
+              <div class="info">
+                <h2>nom</h2>
+<!--                <img src="img/veracash_logo.png" alt="sisqo" width="140px" height="40px">-->
+                <!--div>
+                    <h4>Lewis s.TOM'S</h4>
+                    <small>CEO Expert</small>
+                </div-->
+              </div>
+              <div class="contact">
+                <h2>DOE</h2>
+                <!--span class="las la-user-circle"></span>
+                <span class="las la-comment"></span>
+                <span class="las la-phone"></span-->
+              </div>
+              <div class="contact">
+                <button class="card-header">MODIFIER</button>
+                <!--span class="las la-user-circle"></span>
+                <span class="las la-comment"></span>
+                <span class="las la-phone"></span-->
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="customer">
+              <div class="info">
+                <h2>nom</h2>
+<!--                <img src="img/veracash_logo.png" alt="sisqo" width="140px" height="40px">-->
+                <!--div>
+                    <h4>Lewis s.TOM'S</h4>
+                    <small>CEO Expert</small>
+                </div-->
+              </div>
+              <div class="contact">
+                <h2>DOE</h2>
+                <!--span class="las la-user-circle"></span>
+                <span class="las la-comment"></span>
+                <span class="las la-phone"></span-->
+              </div>
+              <div class="contact">
+                <button class="card-header">MODIFIER</button>
+                <!--span class="las la-user-circle"></span>
+                <span class="las la-comment"></span>
+                <span class="las la-phone"></span-->
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="customer">
+              <div class="info">
+                <h2>nom</h2>
+<!--                <img src="img/veracash_logo.png" alt="sisqo" width="140px" height="40px">-->
+                <!--div>
+                    <h4>Lewis s.TOM'S</h4>
+                    <small>CEO Expert</small>
+                </div-->
+              </div>
+              <div class="contact">
+                <h2>DOE</h2>
+                <!--span class="las la-user-circle"></span>
+                <span class="las la-comment"></span>
+                <span class="las la-phone"></span-->
+              </div>
+              <div class="contact">
+                <button class="card-header">MODIFIER</button>
+                <!--span class="las la-user-circle"></span>
+                <span class="las la-comment"></span>
+                <span class="las la-phone"></span-->
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="customer">
+              <div class="info">
+                <h2>nom</h2>
+<!--                <img src="img/veracash_logo.png" alt="sisqo" width="140px" height="40px">-->
+                <!--div>
+                    <h4>Lewis s.TOM'S</h4>
+                    <small>CEO Expert</small>
+                </div-->
+              </div>
+              <div class="contact">
+                <h2>DOE</h2>
+                <!--span class="las la-user-circle"></span>
+                <span class="las la-comment"></span>
+                <span class="las la-phone"></span-->
+              </div>
+              <div class="contact">
+                <button class="card-header">MODIFIER</button>
+                <!--span class="las la-user-circle"></span>
+                <span class="las la-comment"></span>
+                <span class="las la-phone"></span-->
+              </div>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="customer">
+              <div class="info">
+                <h2>prénom</h2>
+<!--                <img src="img/logo_ciib.png" alt="sisqo" width="140px" height="45px">-->
+                <!--                                <div>-->
+                <!--                                    <h4>Lewis s.TOM'S</h4>-->
+                <!--                                    <small>CEO Expert</small>-->
+                <!--                                </div>-->
+              </div>
+                <h2>Jane</h2>
+              <div class="contact">
+                <!--                                <span class="las la-user-circle"></span>-->
+                <!--                                <span class="las la-comment"></span>-->
+                <!--                                <span class="las la-phone"></span>-->
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="customer">
+              <div class="info">
+                <img src="img/logo-accueil-hotel.jpg" alt="sisqo" width="140px" height="45px">
+                <!--                                <div>-->
+                <!--                                    <h4>Lewis s.TOM'S</h4>-->
+                <!--                                    <small>CEO Expert</small>-->
+                <!--                                </div>-->
+              </div>
+              <div class="contact">
+                <h2>709</h2>
+                <!--                                <span class="las la-user-circle"></span>-->
+                <!--                                <span class="las la-comment"></span>-->
+                <!--                                <span class="las la-phone"></span>-->
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="customer">
+              <div class="info">
+                <img src="img/logo-cellande.jpg" alt="cellande" width="140px" height="40px">
+                <!--                                <div>-->
+                <!--                                    <h4>Lewis s.TOM'S</h4>-->
+                <!--                                    <small>CEO Expert</small>-->
+                <!--                                </div>-->
+              </div>
+              <div class="contact">
+                <h2>2500</h2>
+                <!--                                <span class="las la-user-circle"></span>-->
+                <!--                                <span class="las la-comment"></span>-->
+                <!--                                <span class="las la-phone"></span>-->
+              </div>
+            </div>
+          </div>
+
+          <!--                    <div class="card-body">-->
+          <!--                        <div class="customer">-->
+          <!--                            <div class="info">-->
+          <!--                                <img src="sisqo.jpeg" alt="sisqo" width="40px" height="40px">-->
+          <!--                                <div>-->
+          <!--                                    <h4>Lewis s.TOM'S</h4>-->
+          <!--                                    <small>CEO Expert</small>-->
+          <!--                                </div>-->
+          <!--                            </div>-->
+          <!--                            <div class="contact">-->
+          <!--                                <span class="las la-user-circle"></span>-->
+          <!--                                <span class="las la-comment"></span>-->
+          <!--                                <span class="las la-phone"></span>-->
+          <!--                            </div>-->
+          <!--                        </div>-->
+        </div>
+      </div>
+
+    </div>
+</div>
+</main>
+
+</body>
+</html>
+</title>
+</head>
+<body>
+
+</body>
+</html>
